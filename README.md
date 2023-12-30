@@ -6,7 +6,7 @@ A simple python game where you have to control a car ,avoid rocks , collect coin
  1. Should have `python` installed in the system.
  2. Install `pip install poetry`
  3. Setup the project `poetry install`
- 4. Run the game `poetry run python .\race\race.py`
+ 4. Run the game `poetry run python ./race/race.py`
 
 
 # Game play :
