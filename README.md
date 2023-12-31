@@ -20,5 +20,17 @@ A simple python game where you have to control a car ,avoid rocks , collect coin
 !["Screen3"](images/ss3.png "Screen3")
 !["Screen4"](images/ss4.png "Screen4")
 
+## Troubleshooting
+
+### Running in Docker Dev Container
+
+Error message: 
+    ImportError: Library "GL" not found
+
+1. `pip install pyqt5`
+2. `pip install pyqtwebengine`
+3. `pip install pyglet`
+4. `sudo apt install -y libgl1`
+
 ## Credits
 [Original repository](https://github.com/git-aditya-star/python-game-The-red-driver) by [Aditya Chavan](https://github.com/git-aditya-star)
