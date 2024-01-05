@@ -12,7 +12,6 @@ def game_setup():
 
 def test_initialization(game):
     """Test that all game elements are correctly initialized."""
-
     assert game.car_list is not None, "Car list should be initialized"
     assert game.fuel_list is not None, "Fuel list should be initialized"
     assert game.road_list is not None, "Road list should be initialized"
