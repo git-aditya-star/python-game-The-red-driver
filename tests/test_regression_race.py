@@ -1,7 +1,8 @@
 import pytest
 from unittest.mock import patch
 import race
-from arcade import key
+#from arcade import key
+import arcade
 
 @pytest.fixture
 def game_setup():

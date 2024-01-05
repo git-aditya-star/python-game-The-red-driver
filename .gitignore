@@ -1,3 +1,5 @@
 .devcontainer/devcontainer.json
 .devcontainer/Dockerfile
 .devcontainer/noop.txt
+__pycache__*
+.pytests_cache*
