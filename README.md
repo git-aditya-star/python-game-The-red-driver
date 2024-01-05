@@ -32,5 +32,14 @@ Error message:
 3. `pip install pyglet`
 4. `sudo apt install -y libgl1`
 
+### Running in CodeSpaces (Ubuntu 22)
+
+Error message: 
+    ImportError: Library "GL" not found
+    ImportError: Library "GLU" not found.
+
+1. `sudo apt install -y libgl1`
+2. `sudo apt install -y libglu1`
+
 ## Credits
 [Original repository](https://github.com/git-aditya-star/python-game-The-red-driver) by [Aditya Chavan](https://github.com/git-aditya-star)
